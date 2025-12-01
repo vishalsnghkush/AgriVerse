@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Database
+agriverse.db
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and Results
+server_results/*
+!server_results/*.pth
+!server_results/*.json
+*.log

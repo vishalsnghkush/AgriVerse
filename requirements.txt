@@ -1,0 +1,10 @@
+flask
+flask-cors
+bcrypt
+pyjwt
+torch
+torchvision
+pillow
+numpy
+gunicorn
+requests
