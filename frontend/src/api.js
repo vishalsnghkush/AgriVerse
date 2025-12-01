@@ -1,3 +1,11 @@
+import axios from 'axios';
+
+const API_BASE_URL = ""; // Relative path for production
+
+const api = axios.create({
+    baseURL: API_BASE_URL,
+});
+
 // Add token to requests if available
 api.interceptors.request.use((config) => {
     const token = localStorage.getItem('token');
