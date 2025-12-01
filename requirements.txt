@@ -2,6 +2,7 @@ flask
 flask-cors
 bcrypt
 pyjwt
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
 torchvision
 pillow
